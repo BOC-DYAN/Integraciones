@@ -1,6 +1,6 @@
 # Integraciones
 Manuales de integraciones y mejoras 
-```php	
+```java	
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

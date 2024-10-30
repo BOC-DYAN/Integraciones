@@ -108,3 +108,12 @@ IMPORTANTE . En la implmentación del metodo Controller se debe definir la varia
 El resultado es que la notacion JsonArg nos permite mappear multiples secciones de una misma entrada y manipular el tipo de variable que corresponda String , Integer , 
 
 ![Referencia Imagen2](https://raw.githubusercontent.com/BOC-DYAN/Integraciones/refs/heads/main/images-manual/Paso3.png)
+
+
+Referencias : 
+
+https://stackoverflow.com/questions/12893566/passing-multiple-variables-in-requestbody-to-a-spring-mvc-controller-using-ajax
+https://www.aluracursos.com/blog/crear-anotaciones-en-java
+https://www.geekabyte.io/2014/08/how-to-inject-objects-into-spring-mvc.html
+
+

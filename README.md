@@ -97,9 +97,14 @@ public class WebConfig implements WebMvcConfigurer {
 }
 ```
 ## Forma de utilizar la notacion @JsonArg 
-Luego de habilitar la notacion , se puede utilizar en la definición de nuestro paquete alma en la configureacion del parametro de entrada de nuestro endpoint. 
+Luego de habilitar la notación , se puede utilizar en la definición de nuestro paquete alma en la configuración del parametro de entrada de nuestro endpoint. 
 
-![Referencia Imagen1](https://raw.githubusercontent.com/jvadillo/guia-laravel-paso-a-paso/master/laravel.jpg)
+![Referencia Imagen1](https://raw.githubusercontent.com/BOC-DYAN/Integraciones/b1cfd842cf1e973b4c5b99ce921294685a041bd4/images-manual/Paso1.png)
 
+IMPORTANTE . En la implmentación del metodo Controller se debe definir la variable igual al atributo que se intenta mapear desde el contenido del JSON. 
 
+![Referencia Imagen2](https://raw.githubusercontent.com/BOC-DYAN/Integraciones/refs/heads/main/images-manual/Paso2.png)
 
+El resultado es que la notacion JsonArg nos permite mappear multiples secciones de una misma entrada y manipular el tipo de variable que corresponda String , Integer , 
+
+![Referencia Imagen2](https://raw.githubusercontent.com/BOC-DYAN/Integraciones/refs/heads/main/images-manual/Paso3.png)
